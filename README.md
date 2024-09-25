@@ -10,12 +10,12 @@
 
 ## Using DAM
 
-DAM is a Rust package, currently GitHub-only (awaiting a [PR](https://github.com/Xudong-Huang/may/pull/108) merge into one of the dependencies.).
+DAM is a Rust package, currently GitHub-only (awaiting a [PR](https://github.com/Xudong-Huang/may/pull/108) merge into one of the dependencies and update crates.io).
 
 To use DAM, add the following line into your `Cargo.toml` under the `[dependencies]` section:
 
 ```toml
-dam = {git = "https://github.com/stanford-ppl/DAM-RS.git"}
+dam = {git = "https://github.com/simulation-tools/dam.git"}
 ```
 
 To build the documentation for DAM, run the following command inside of this repository:
